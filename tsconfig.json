@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "types": [
+            "node"
+        ],
+        "strict": false,
+        "alwaysStrict": false,
+        "strictFunctionTypes": false,
+        "strictNullChecks": false,
+        "strictPropertyInitialization": false,
+        "forceConsistentCasingInFileNames": false,
+        "noImplicitReturns": false,
+        "incremental": true,
+        "diagnostics": true, // 打印诊断信息
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "declaration": false,
+        "emitDeclarationOnly": false, // 只生成声明文件，而不会生成js文件
+        "sourceMap": false, // 生成目标文件的sourceMap文件
+        "inlineSourceMap": false, // 生成目标文件的inline SourceMap，inline SourceMap会包含在生成的js文件中
+        "declarationMap": false, // 为声明文件生成sourceMap\
+        "pretty": true,
+        "allowJs": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        // "rootDir": "",
+        "outDir": "dist",
+    },
+    "include": [
+        "*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
